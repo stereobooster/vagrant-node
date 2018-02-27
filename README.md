@@ -44,23 +44,6 @@ everything is fine. If not, please consider the documentation for SSH.
 
 Inside of the virtual machine, Node.js has already been installed for you. Installation of Node.js is done using [nvm](https://github.com/creationix/nvm), so you can easily switch versions if necessary.
 
-Additionally, the following CLI tools have been installed globally and are ready to use:
-
-- [Browserify](http://browserify.org/)
-- [ESLint](http://eslint.org/)
-- [find-versions](https://github.com/sindresorhus/find-versions)
-- [forany](https://github.com/thenativeweb/forany)
-- [Grunt](http://gruntjs.com/)
-- [Harp](http://harpjs.com/)
-- [http-server](https://github.com/nodeapps/http-server)
-- [knockat](https://github.com/thenativeweb/knockat)
-- [Less](http://lesscss.org/)
-- [Mocha](http://mochajs.org/)
-- [pm2](https://github.com/Unitech/pm2)
-- [pm2-web](https://github.com/achingbrain/pm2-web)
-- [reqd](https://github.com/thenativeweb/reqd)
-- [UglifyJS2](http://lisperator.net/uglifyjs/)
-
 Where necessary, port forwardings for these tools have already been configured.
 
 ### Using Docker
