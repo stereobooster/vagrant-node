@@ -10,12 +10,20 @@ git clone https://github.com/creationix/nvm.git ~/.nvm && cd ~/.nvm && git check
 echo "source ~/.nvm/nvm.sh" >> ~/.profile
 source ~/.profile
 
-nvm install 6.0
-nvm alias default 6.0
+# LTS is v6.9.0
+# current in travis v6.12.3
+# nvm install 6 installs v6.13
+nvm install 6.12.3
+nvm alias default 6.12.3
+# npm install npm@5.6.0 -g
 
 echo "cd ~/projects" >> ~/.profile
 
 ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+node --version
+npm --version
+nvm --version
 
 echo ""
 echo "Everything done, have a nice day :-)!"
